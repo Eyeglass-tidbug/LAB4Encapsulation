@@ -1,0 +1,11 @@
+D:\jancode\LAB4Encapsulation\LAB4Encapsulation\bin\Debug\LAB4Encapsulation.exe.config
+D:\jancode\LAB4Encapsulation\LAB4Encapsulation\bin\Debug\LAB4Encapsulation.exe
+D:\jancode\LAB4Encapsulation\LAB4Encapsulation\bin\Debug\LAB4Encapsulation.pdb
+D:\jancode\LAB4Encapsulation\LAB4Encapsulation\obj\Debug\LAB4Encapsulation.csproj.AssemblyReference.cache
+D:\jancode\LAB4Encapsulation\LAB4Encapsulation\obj\Debug\LAB4Encapsulation.csproj.SuggestedBindingRedirects.cache
+D:\jancode\LAB4Encapsulation\LAB4Encapsulation\obj\Debug\LAB4Encapsulation.Properties.Resources.resources
+D:\jancode\LAB4Encapsulation\LAB4Encapsulation\obj\Debug\LAB4Encapsulation.csproj.GenerateResource.cache
+D:\jancode\LAB4Encapsulation\LAB4Encapsulation\obj\Debug\LAB4Encapsulation.csproj.CoreCompileInputs.cache
+D:\jancode\LAB4Encapsulation\LAB4Encapsulation\obj\Debug\LAB4Encapsulation.exe
+D:\jancode\LAB4Encapsulation\LAB4Encapsulation\obj\Debug\LAB4Encapsulation.pdb
+D:\jancode\LAB4Encapsulation\LAB4Encapsulation\obj\Debug\LAB4Encapsulation.Form1.resources
