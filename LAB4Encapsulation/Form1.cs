@@ -12,6 +12,7 @@ namespace LAB4Encapsulation
 {
     public partial class Form1 : Form
     {
+        Classroom classroom;
         public Form1()
         {
             InitializeComponent();
@@ -24,6 +25,7 @@ namespace LAB4Encapsulation
         }
         private void button1_Click(object sender, EventArgs e)
         {
+
             //getname
             string inname = this.INname.Text;
             //get year
@@ -31,16 +33,26 @@ namespace LAB4Encapsulation
             int Pbirthyear = Int32.Parse(inbirthyear);
             //get gpa
             string ingpa = this.INgpa.Text;
-            float Pgpa = int.Parse(ingpa);
-            //pass all in
+            double Pgpa = int.Parse(ingpa);
+
             Person person = new Person(inname, Pbirthyear, Pgpa);
-            //show name in listname
-            //Listname.Text += person.getname()+ "\r\n";
-            Classroom classroom = new Classroom("OOP");
-            //sigma all age
-            int Cal_age = person.getage() + Int32.Parse(this.Allage.Text);
-            Allage.Text = Cal_age.ToString();
-            //max gpa
+
+            this.classroom.AddPerson(person);
+            this.classroom.addGPA();
+            //this.Listname.Text = this.classroom.showAllpersoninclass();
+
+            int currentAge = Int32.Parse(this.Allage.Text);
+            int newTotal = currentAge + this.classroom.totalClass_age();
+            this.Allage.Text = newTotal.ToString();
+
+            double Maxgpa = this.classroom.showMaxgpa();
+            this.maxgpa.Text = Maxgpa.ToString();
+
+            double Mingpa = this.classroom.showmingpa();
+            this.mingpa.Text = Mingpa.ToString();
+
+            double Avggpa = this.classroom.AvgGpa();
+            this.avg_gpa.Text = Avggpa.ToString();
 
             INname.Text = "";
             INbirthyear.Text = "";
@@ -58,6 +70,11 @@ namespace LAB4Encapsulation
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Allage_TextChanged(object sender, EventArgs e)
         {
 
         }

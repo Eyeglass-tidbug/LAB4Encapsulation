@@ -13,15 +13,16 @@ namespace LAB4Encapsulation
         private string name;
         private int age;
         private int birthyear;
-        private float gpa;
+        private double gpa;
 
-       public Person(string name, int byear, float igpa) {
+        public Person(string name, int byear, double igpa) {
             this.name = name;
             this.gpa = igpa;
             this.birthyear = byear;
-            this.age = 2565 - byear;
+            this.age = 2023 - birthyear;
         }
-        public int getage() {
+        public int getage()
+        {
             return this.age;
         }
 
@@ -30,7 +31,7 @@ namespace LAB4Encapsulation
             return this.name;
         }
 
-        public float getgpa()
+        public double getgpa()
         {
             return this.gpa;
         }

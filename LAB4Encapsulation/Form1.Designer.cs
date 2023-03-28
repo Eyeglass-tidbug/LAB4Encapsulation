@@ -57,6 +57,7 @@
             this.INname.Name = "INname";
             this.INname.Size = new System.Drawing.Size(116, 22);
             this.INname.TabIndex = 0;
+            this.INname.Text = "A";
             // 
             // label1
             // 
@@ -75,6 +76,7 @@
             this.INbirthyear.Name = "INbirthyear";
             this.INbirthyear.Size = new System.Drawing.Size(116, 22);
             this.INbirthyear.TabIndex = 2;
+            this.INbirthyear.Text = "2023";
             // 
             // label2
             // 
@@ -92,7 +94,7 @@
             this.button1.Font = new System.Drawing.Font("Papyrus", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(51, 231);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(400, 48);
+            this.button1.Size = new System.Drawing.Size(116, 48);
             this.button1.TabIndex = 4;
             this.button1.Text = "GET";
             this.button1.UseVisualStyleBackColor = true;
@@ -104,6 +106,7 @@
             this.INgpa.Name = "INgpa";
             this.INgpa.Size = new System.Drawing.Size(116, 22);
             this.INgpa.TabIndex = 6;
+            this.INgpa.Text = "1";
             // 
             // label3
             // 
@@ -215,6 +218,7 @@
             this.Allage.Size = new System.Drawing.Size(100, 22);
             this.Allage.TabIndex = 18;
             this.Allage.Text = "0";
+            this.Allage.TextChanged += new System.EventHandler(this.Allage_TextChanged);
             // 
             // avg_gpa
             // 
