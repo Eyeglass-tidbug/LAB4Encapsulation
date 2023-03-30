@@ -18,11 +18,10 @@ namespace LAB4Encapsulation
         {
             this.name = name;
         }
-
-        public void AddPerson(Person p) {
-            this.person.Add(p);
+        public void AddPerson(Person Aperson) 
+        {
+            this.person.Add(Aperson);
         }
-
         public string showAllpersoninclass()
         {
             string result = " ";
